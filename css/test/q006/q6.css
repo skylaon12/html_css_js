@@ -1,0 +1,44 @@
+#main{
+    display: flex;
+    height: 1000px;
+}
+
+#right{
+    width: 300px;
+    background-color: pink;
+}
+#top{
+    display: flex;
+    height: 100px;
+}
+#top_left{
+    width: 200px;
+    background-color: red;
+}
+#top_right{
+    width: 600px;
+    background-color: orange;
+}
+#mid{
+    display: flex;
+    background-color: yellow;
+    height: 50px;
+    
+}
+#menu{
+    width: 200px;
+    height: 50px;
+    background-color: gray;
+}
+#bot{
+    display: flex;
+    height: 800px;
+}
+#bot_left{
+    width: 200px;
+    background-color: green;
+}
+#bot_right{
+    width: 600px;
+    background-color: blue;
+}

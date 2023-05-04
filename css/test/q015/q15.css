@@ -1,0 +1,30 @@
+.ex{
+  height: 200px;
+}
+#box{
+  display: flex;
+  flex-direction: row;
+  width: 1200px;
+  height: 1200px;
+}
+
+#a{
+  width: 10%;
+  background-color: red;
+}
+#b{
+  width: 30%;
+  background-color: orange;
+}
+#c{
+  width: 20%;
+  background-color: yellow;
+}
+#d{
+  width: 20%;
+  background-color: green;
+}
+#e{
+  width: 20%;
+  background-color: blue;
+}

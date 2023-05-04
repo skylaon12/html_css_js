@@ -1,0 +1,13 @@
+div{
+  display: flex;
+  width: 1000px;
+  height: 100px;
+  background-color: red;
+  justify-content: center;
+}
+
+div div{
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+}

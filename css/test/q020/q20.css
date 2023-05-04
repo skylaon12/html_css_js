@@ -1,0 +1,27 @@
+*{
+	background-color: pink;
+}
+div {
+	width: 100px;
+	height: 100px;
+}
+
+.container {
+    display: grid;
+	/* grid-template-columns: 150px 300px 200px; */
+	/* grid-template-columns: 1fr 1fr 1fr; */
+	grid-template-columns: repeat(8, 1fr);
+	/* grid-template-columns: 200px 1fr */
+	/* grid-template-columns: 100px 200px auto */
+
+	/* grid-template-rows: 200px 300px 200px; */
+	/* grid-template-rows: 1fr 1fr 1fr; */
+	grid-template-rows: repeat(8, 1fr);
+}
+
+.black{
+	background-color: black;
+}
+.white{
+	background-color: white;
+}
