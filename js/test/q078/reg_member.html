@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+
+<body>
+    <form>
+        <input type="text" class="ip" id="id" minlength="6" maxlength="12" required placeholder="id(6자리이상,12자리이하)"><br>
+
+        <input type="password" id="pw" placeholder="pw(6자리이상,15자리이하)"><br>
+
+        <input type="password" placeholder="pw재입력"><br>
+
+        <input type="text" id="name" placeholder="이름"><br>
+        email<br>
+        <input type="text">@<input type="text"><br>
+        생년월일<br>
+        <input type="number" value="2022">-
+        <select class="ip_birth2" id="bir_m">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+            <option value="12">12</option>
+        </select>-
+        <select class="ip_birth3" id="bir_d">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+            <option value="12">12</option>
+        </select><br>
+
+        <h3>성별</h3>
+        <input type="radio" name="sex" value="M" checked>남성
+        <input type="radio" name="sex" value="G">여성<br>
+
+        전화번호 <input type="text" id="phone_1" value="010">-
+        <input type="text" id="phone_2">-
+        <input type="text" id="phone_3"><br>
+
+        <button type="submit">제출</button>
+        <button type="reset">초기화</button>
+    </form>
+
+</body>
+
+</html>
