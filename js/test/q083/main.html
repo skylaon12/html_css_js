@@ -1,0 +1,40 @@
+<!-- html만
+1. form태그 안에 input 텍스트 입력 1개
+    submit 버튼 포함하는 폼 만들기 * 5개
+2. 각 텍스트입력에 아래 입력제한이 걸리도록 정규표현식 추가하기
+숫자만 입력
+영문 대소문자만
+영문 대소문자만(띄어쓰기 공백 가능)
+숫자, 영문 대소문자만
+최소 8자리에서 최대 16자리까지 숫자, 영문, 특수문자 각 1개 이상 포함하는
+(암호 유효성 검사에 유용) -->
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <input pattern="^[0-9]+$" type="text">
+        <button type="submit">form1제출</button>
+    </form>
+    <form>
+        <input pattern="^[a-zA-Z]+$" type="text">
+        <button type="submit">form2제출</button>
+    </form>
+    <form>
+        <input pattern="^[a-z-A-Z\s]+$" type="text">
+        <button type="submit">form3제출</button>
+    </form>
+    <form>
+        <input pattern="^[a-zA-Z0-9]+$" type="text">
+        <button type="submit">form4제출</button>
+    </form>
+    <form>
+        <input type="text" name="patternValue" pattern="^(?=.*[A-Za-z])(?=.*\d)(?=.*[$@$!%*#?&])[A-Za-z\d$@$!%*#?&]{8,16}$">
+        <button type="submit">form5제출</button>
+    </form>
+</body>
+</html>

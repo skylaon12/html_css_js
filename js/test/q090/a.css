@@ -1,0 +1,27 @@
+/* 로그인 입력 박스(div)를 전체 화면의 가로, 세로 중앙위치에 정렬하기 */
+
+body{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: cornflowerblue;
+    font-size: 20px;
+}
+
+form{
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    margin: auto;
+}
+
+#box{
+    width: 300px;
+    height: 200px;
+    background-color: pink;
+    border: 3px solid yellow;
+    border-radius: 5%;
+    /* align-items: center; */
+    padding-left: 10px;
+    box-shadow: 5px 5px 5px;
+}
