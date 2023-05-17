@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="a.css">
+</head>
+
+<body>
+    <h2>SOLDESK</h2>
+    <div style="text-align: center;">
+        <span id="clock" font-size: 60px;"></span>
+        <span id="apm" font-size: 30px;"></span>
+    </div>
+    <div class="container" id="container">
+        <div class="form-container sign-up-container">
+            <form action="#">
+                <h1>Create Account</h1>
+                <span>or use your email for registration</span>
+                <input type="text" id="new_id" minlength="6" maxlength="12" placeholder="id(6자이상,12자 이하)" />
+                <input type="password" id="new_pw"  minlength="6" maxlength="12" placeholder="pw(6자이상,12자 이하)" />
+                <input type="password"  id="pw_re" minlength="6" maxlength="12" placeholder="pw재입력"/>
+                <input type="text" id="name" placeholder="Name">
+                <input type="email" id="email" placeholder="Email" />
+
+                <input type="date" id="bir"  placeholder="생년월일"/>
+                <input type="text" id="phone" placeholder="PhoneNum">
+                <button onclick="register()">Sign Up</button>
+            </form>
+        </div>
+        <div class="form-container sign-in-container">
+            <form action="#">
+                <h1>Sign in</h1>
+                <span>or use your account</span>
+                <input type="text" id="id" placeholder="ID" />
+                <input type="password" id = "pw" placeholder="Password" />
+                <a href="#">Forgot your password?</a>
+                <button onclick="login()">Sign In</button>
+            </form>
+        </div>
+        <div class="overlay-container">
+            <div class="overlay">
+                <div class="overlay-panel overlay-left">
+                    <h1>Welcome Back!</h1>
+                    <p>To keep connected with us please login with your personal info</p>
+                    <button class="ghost" id="signIn">Sign In</button>
+                </div>
+                <div class="overlay-panel overlay-right">
+                    <h1>Hello, Friend!</h1>
+                    <p>Enter your personal details and start journey with us</p>
+                    <button class="ghost" id="signUp">Sign Up</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    css출처 : https://inpa.tistory.com/
+    <script src="index.js"></script>
+    <script src="time.js"></script>
+    <script src="reg_member.js"></script>
+    <script src="login.js"></script>
+</body>
+
+</html>
