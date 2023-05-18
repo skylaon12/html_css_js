@@ -1,0 +1,11 @@
+table{
+    width: 300px;
+    height: 300px;
+}
+tr, td{
+    border: 5px solid black;   
+}
+
+div{
+    background-color: pink;
+}
